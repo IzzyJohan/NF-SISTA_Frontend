@@ -1,0 +1,170 @@
+@media screen and (max-width: 920px) {
+    .col-pin-breadcrumb li, fieldset, td, .footer p {
+        font-size: 14px;
+    }
+    h2  {
+        font-size: 22px;    
+    }
+    .daftar-button a {
+        font-size: 16px ;
+    }
+}
+@media screen and (max-width: 600px) {
+    .col-pin-breadcrumb li, fieldset, td, .footer p{
+        font-size: 12px;
+    }
+    h2 {
+       font-size: 18px;
+    }
+    .daftar-button a {
+        font-size: 14px ;
+    }
+}
+@media screen and (max-width: 420px) {
+    .col-pin-breadcrumb li, fieldset, td, .footer p{
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .daftar-button a {
+        font-size: 14px ;
+    }
+}
+
+.container-fluid {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.row-pin-title {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+}
+
+.col-pin-title {
+    background-color: #f1f1f1;
+}
+
+.card-pin-title {
+    text-align: center;
+    background-image: linear-gradient(to right, #2F80ED, #56CCF2); 
+    box-shadow: 5px 5px 5px rgb(207, 207, 207);
+}
+
+.row-pin-breadcrumb {
+    padding-bottom: 1em;
+}
+
+.col-pin-breadcrumb {
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.col-pin-breadcrumb nav {
+    position: absolute;
+    right: 0;
+}
+
+.row-pin-table {
+    background-color: #f1f1f1;
+    padding-bottom: 9.5em
+}
+
+.col-pin-table {
+    background-color: #f1f1f1;
+}
+
+.card-pin-table {
+    box-shadow: 3px 3px 3px rgb(230, 230, 230);
+    max-width: 70em;
+    overflow-x: auto;
+    margin: auto;
+}
+
+.table-eks {
+    margin-left: 16px;
+}
+
+td {
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+}
+
+input, select{
+    width: 80%;
+}
+
+.radio-pin {
+    margin-top: 26px;
+}
+
+.radio-pin li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.radio-pin input {
+    width: 15px;
+    height: 15px;
+}
+
+.radio-pin ul {
+    display: inline-table;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd;
+    padding: 0 1.5em 1.5em 1.5em;
+    margin: 1em;
+    overflow-x: auto;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em ;
+    font-weight: bold ;
+    text-align: left;
+    width:inherit;
+    padding:0 10px; 
+    border-bottom:none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxwYXRoIGQ9Ik0yLjUgMEwxIDEuNSAzLjUgNCAxIDYuNSAyLjUgOGw0LTQtNC00eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+);;
+}
+
+.daftar-button {
+    font-size: 30px;   
+}
+
+.row-pin-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+  
+.col-pin-footer {
+    background-color: white;
+    padding: 5px 0 20px 0;
+}
+  
+.footer a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+}
+  
+.left- {
+    float: left;
+    padding-left: 2%;
+    color: rgb(161, 161, 161);
+}
+  
+  .footer a:hover {
+    color: rgb(122, 122, 122);
+}
+  
+

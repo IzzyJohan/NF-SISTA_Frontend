@@ -1,0 +1,129 @@
+@media screen and (max-width: 920px) {
+    a {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    a {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h5, i, p {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    a {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  
+  .container-fluid {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .row-pin-title {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-title {
+    background-color: #f1f1f1;
+  }
+  
+  .card-pin-title {
+    text-align: center;
+    background-image: linear-gradient(to right, #2F80ED, #56CCF2); 
+    box-shadow: 5px 5px 5px rgb(207, 207, 207);
+  }
+  
+  .row-pin-nav {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-nav {
+    background-color: #f1f1f1; 
+  }
+  
+  .col-pin-nav a {
+    border-radius: 4px;
+  }
+  
+  .col-pin-gall-title {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+ 
+  .row-pin-gall {
+    background-color: #f1f1f1;
+    padding-bottom: 9.5em;
+    margin: 0 20px 0 20px;
+  }
+
+  .col-pin-gall {
+    background-color: #f1f1f1;
+    padding-bottom: 2em;
+    max-width: 20em;
+    margin: auto;
+  }
+
+  .card-pin-gall {
+    box-shadow: 3px 3px 3px rgb(230, 230, 230);
+    max-width: 14em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .card-pin-gall {
+    font-size: 19px;
+    font-weight: 300;
+  }
+
+  .card-pin-gall img {
+    width: 10em;
+    padding-bottom: 1em;
+  }
+
+  .card-footer {
+    text-align: end;
+    font-size: 20px;
+  }
+  
+  .row-pin-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .col-pin-footer {
+    background-color: white;
+    padding: 5px 0 20px 0;
+  }
+  
+  .left- {
+    float: left;
+    padding-left: 2%;
+    color: rgb(161, 161, 161);
+  }
+  
+  .footer a:hover {
+    color: rgb(122, 122, 122);
+  }
+  
+  
+  
+  
+  
+  
+  

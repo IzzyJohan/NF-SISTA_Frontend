@@ -1,0 +1,147 @@
+@media screen and (max-width: 920px) {
+    a, p, th, td {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    a, p, th, td {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    a, p, th, td {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    .col-pin-profil-icon a {
+      font-size: 14px;  
+    }
+    .col-pin-profil-icon i {
+      font-size: 70px;
+    }
+  }
+  
+  .container-fluid {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .row-pin-title {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-title {
+    background-color: #f1f1f1;
+  }
+  
+  .card-pin-title {
+    text-align: center;
+    background-image: linear-gradient(to right, #2F80ED, #56CCF2); 
+    box-shadow: 5px 5px 5px rgb(207, 207, 207);
+  }
+  
+  .row-pin-nav {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-nav {
+    background-color: #f1f1f1; 
+  }
+  
+  .col-pin-nav a {
+    border-radius: 4px;
+  }
+    
+  .row-pin-profil {
+    padding-bottom: 9.5em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-profil {
+    background-color: #f1f1f1; 
+  }
+  
+  .card-pin-profil {
+    box-shadow: 3px 3px 3px rgb(230, 230, 230);
+    max-width: 70em;
+    margin: auto;    
+  }
+
+  .col-pin-profil-icon {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+
+  .col-pin-profil-icon i {
+    color: #2F80ED;
+  }
+
+  .col-pin-profil-icon a {
+    border-radius: 0;
+    text-decoration: none;
+  }
+
+  .col-pin-profil-desc {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: auto;
+  }
+
+  table {
+    margin-top: 1em;
+  }
+
+  .logout-button a {
+    float: right;
+    text-decoration: none;
+  }
+  
+  .row-pin-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .col-pin-footer {
+    background-color: white;
+    padding: 5px 0 20px 0;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+  
+  .left- {
+    float: left;
+    padding-left: 2%;
+    color: rgb(161, 161, 161);
+  }
+  
+  .footer a:hover {
+    color: rgb(122, 122, 122);
+  }
+  
+  
+  
+  
+  
+  
+  

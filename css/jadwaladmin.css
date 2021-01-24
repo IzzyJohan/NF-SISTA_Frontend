@@ -1,0 +1,160 @@
+@media screen and (max-width: 920px) {
+    a, p, th, td, .nav-admin li, .tambah-button a {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    a, p, th, td, .nav-admin li {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    a, p, th, td, .nav-admin li {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  
+  .container-fluid {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .row-pin-title {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-title {
+    background-color: #f1f1f1;
+  }
+  
+  .card-pin-title {
+    text-align: center;
+    background-image: linear-gradient(to right, #2F80ED, #56CCF2); 
+    box-shadow: 5px 5px 5px rgb(207, 207, 207);
+  }
+  
+  .row-pin-nav {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-nav {
+    background-color: #f1f1f1; 
+  }
+  
+  .col-pin-nav a {
+    border-radius: 4px;
+  }
+  
+  .nav-admin li {
+    color: rgb(141, 140, 140);
+    display: inline-block;
+    list-style: none;
+  }
+
+  .nav-admin ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-admin a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .dropdown a {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+  .tambah-button {
+      font-size: 25px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      float: left;
+  }
+  
+  .row-pin-table {
+    padding-bottom: 9.5em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-table {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #f1f1f1;
+    max-width: 70em; 
+    margin: auto;
+  }
+  
+  thead {
+    background-color: rgb(184,218,255);
+  }
+   
+  table {
+    box-shadow: 3px 3px 3px rgb(230, 230, 230);
+  }
+
+  .table-row1 {
+      cursor: pointer;
+  }
+
+  .action-edit li {
+      display: inline;
+      list-style: none;
+  }
+
+  .action-edit ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .action-edit a {
+      text-decoration: none;
+      color: black
+  }
+
+  .action-edit a:hover {
+      color: #2F80ED;
+  }
+  
+  .row-pin-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .col-pin-footer {
+    background-color: white;
+    padding: 5px 0 20px 0;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+  
+  .left- {
+    float: left;
+    padding-left: 2%;
+    color: rgb(161, 161, 161);
+  }
+  
+  .footer a:hover {
+    color: rgb(122, 122, 122);
+  }
+  

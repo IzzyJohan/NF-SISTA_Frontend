@@ -1,0 +1,146 @@
+@media screen and (max-width: 920px) {
+    a, p {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    a, p {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    a, p {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  
+  .container-fluid {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .row-pin-title {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-title {
+    background-color: #f1f1f1;
+  }
+  
+  .card-pin-title {
+    text-align: center;
+    background-image: linear-gradient(to right, #2F80ED, #56CCF2); 
+    box-shadow: 5px 5px 5px rgb(207, 207, 207);
+  }
+  
+  .row-pin-nav {
+    padding-bottom: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-nav {
+    background-color: #f1f1f1; 
+  }
+  
+  .col-pin-nav a {
+    border-radius: 4px;
+  }
+  
+  .nav-login i {
+    background-color: rgb(204, 204, 204);  
+    border-radius: 50% ;
+    padding: 0.5em;
+    border: 0.2px solid rgb(189, 189, 189);
+  }
+  
+  .row-pin-berita {
+    padding-bottom: 9.5em;
+    background-color: #f1f1f1;
+  }
+  
+  .col-pin-berita {
+    background-color: #f1f1f1; 
+  }
+  
+  .card-pin-berita {
+    box-shadow: 3px 3px 3px rgb(230, 230, 230);
+    max-width: 70em;
+    margin: auto;  
+    clear: both;  
+  }
+
+  .card-pin-berita img {
+      width: 250px;
+      padding-top: 0.5em;
+  }
+
+  .col-pin-news-img {
+      text-align: center;
+      padding-bottom: 1em;
+  }
+
+  .col-pin-news-desc {
+    padding-bottom: 2em;
+  }
+
+ .col-pin-news-desc a {
+    text-decoration: none;
+  }
+
+  .news-title {
+      font-weight: bold;
+  }
+
+  .news-date {
+      color: rgb(161, 161, 161);
+  }
+  
+  .row-pin-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .col-pin-footer {
+    background-color: white;
+    padding: 5px 0 20px 0;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+  
+  .left- {
+    float: left;
+    padding-left: 2%;
+    color: rgb(161, 161, 161);
+  }
+  
+  .footer a:hover {
+    color: rgb(122, 122, 122);
+  }
+  
+  
+  
+  
+  
+  
+  
